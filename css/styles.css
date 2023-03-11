@@ -5,23 +5,25 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-td:first-child {
-  text-align: left;
-  }
+
+
 h1{
   font-size:5.625rem;
-  margin-top: 0;
+  margin:50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size:2.5em;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }
 p{
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -54,7 +56,7 @@ p{
   bottom: 300px;
   transform: translateX(-300px);
 }
-.pro{
+.underline{
   text-decoration: underline;
 }
 .self-portrait{
@@ -72,4 +74,7 @@ p{
   margin: 0 auto;
   width: 25%;
   text-align: center;
+}
+.subtitle{
+  margin-top:1rem
 }
