@@ -4,15 +4,12 @@ body{
   text-align: center;
   font-family: 'Merriweather', serif;
 }
-table {
-  margin: 0 auto;
-  width: 25%;
-  text-align: center;
-  }
+
 td:first-child {
   text-align: left;
   }
 h1{
+  font-size:5.625rem;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
@@ -69,4 +66,10 @@ p{
 }
 .contact-body{
   background-color: #f5f9f9;
+}
+
+.contact-table{
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
 }
