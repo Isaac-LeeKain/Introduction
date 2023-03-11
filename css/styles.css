@@ -38,6 +38,10 @@ p {
   p {
     width: 100%;
   }
+  .mountain{
+    max-width: 100%;
+    max-height: 400px;
+  }
 }
 /* CLASS STYLES */
 .top-container{
@@ -53,20 +57,21 @@ p {
   background-color: #f5f9f9;
 }
 .mountain{
-  height: 300px;
-  width: 600px;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
 }
 .cloud-top{
   position: absolute;
   right: 50%;
   top: 50px;
-  transform: translateX(300px);
+  transform: translateX(200%);
 }
 .cloud-bottom{
   position: absolute;
   left: 50%;
-  bottom: 300px;
-  transform: translateX(-300px);
+  bottom: auto;
+  transform: translateX(-200%);
 }
 .underline{
   text-decoration: underline;
