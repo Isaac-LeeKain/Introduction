@@ -11,21 +11,33 @@ h1{
   font-size:5.625rem;
   margin:50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #66bfbf;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
-  font-size:2.5em;
+  font-size:2.5rem;
+  color: #66bfbf;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
+  color: #11999E;
 }
-p{
+p {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    width: 100%;
+  }
 }
 /* CLASS STYLES */
 .top-container{
@@ -77,4 +89,7 @@ p{
 }
 .subtitle{
   margin-top:1rem
+}
+.footer-link{
+  color: #11999E;
 }
